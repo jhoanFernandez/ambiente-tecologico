@@ -1,0 +1,149 @@
+
+    /* font-size: tamaño
+    font-family: tipo de letra;
+    font-weight: peso de la letra;
+    funciona en parrafos
+
+
+    text-align: right; alinear a la derecha
+     text-align: left; alinear texto a la izquierda
+      text-align: center; en el centro el texto
+
+      padding: es el relleno
+      margin es el externo margen
+
+
+    header,section,footer,aside,nav,article,hgroud
+
+    border: 1px solid black;
+    display: block;
+    esto funciona especificamente las cita*/
+
+    h1{
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+       
+    body{
+        text-align: center;
+        background: gray;
+    }
+
+    header,section,footer,aside,nav,article,hgroup{
+        display: block;
+    }
+    .agrupar{
+        width: 1260px;
+        border: 1px solid black;
+        margin: 15px auto;
+        background-color: white;
+
+    }
+    .cabecera{
+        background: #b9dfff;
+        border: 1px solid black;
+        padding: 20px;
+    }
+
+
+    .cabecera h1{
+        text-align: left;
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .cabecera img{
+        float: right;
+        width: 200px;
+        margin: -87px 113px -14px 133px;
+    }
+
+
+    .menu {
+        background:  #ccc;
+        padding: 4px 15px;
+        text-align: left
+    }
+    .menu li {
+        list-style: none;
+        padding: 10px;
+        font: bold 14px verdana;
+        display: inline-block;
+        border: 3px solid black;
+        
+
+    }
+    .menu li :hover{
+        background-color: aqua;
+        font: bold 20px verdana;
+        display: inline-block;
+        border: 3px solid black;
+    }
+   
+   
+
+    .seccion{
+        margin: 20px;
+        width: 1120px;
+        border: 1px solid black;
+        float: left;
+        padding: 10px;
+    }
+    .seccion h3{
+        text-align: left;
+
+    }
+    .seccion p{
+        text-align: left;
+    }
+    .seccion img{
+        float: right;
+        width: 200px;
+    }
+    article{
+        background-color: #fffeb9;
+        border: 1px solid black;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    .articulo2 {
+        background-color: rgb(115, 216, 253);
+    }
+    .articulo3{
+        background-color: rgb(208, 139, 255);
+    }
+    .articulo4{
+        background-color: rgb(255, 167, 224);
+    }
+    .articulo5{
+        background-color: rgb(255, 218, 218);
+    }
+   
+   article .animacion {
+    width: 450px;
+   }
+    time {
+        color: #999;
+
+    }
+
+    article footer{
+        text-align: right;
+    }
+    
+    img{
+        width: 40px;
+    }
+    /* .columna{
+        width: 200px;
+        float: left;
+        border: 1px solid black; */
+
+    
+
+    .pie{
+        clear: both;
+        padding: 20px;
+        background: #2d3436;
+        color: #ffffff;
+    }
