@@ -130,6 +130,13 @@
     margin: 10px;
 
    }
+   .seccion2 .pantalla{
+    width: 1200px;
+    margin: 0px;
+   }
+   .seccion2 p{
+    text-align: left;
+   }
    
     time {
         color: #999;
