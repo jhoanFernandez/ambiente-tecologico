@@ -88,6 +88,7 @@
         border: 1px solid black;
         float: left;
         padding: 10px;
+        
     }
     .seccion h3{
         text-align: left;
@@ -97,8 +98,11 @@
         text-align: left;
     }
     .seccion img{
+        margin: -10px;
+        padding: -32px;
         float: right;
-        width: 200px;
+        width: 137px;
+        text-align: left;
     }
     article{
         background-color: #fffeb9;
@@ -119,9 +123,14 @@
         background-color: rgb(255, 218, 218);
     }
    
-   article .animacion {
+   .seccion2 img {
     width: 450px;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+
    }
+   
     time {
         color: #999;
 
