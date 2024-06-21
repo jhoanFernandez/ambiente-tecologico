@@ -27,7 +27,7 @@
        
     body{
         text-align: center;
-        background: gray;
+        background: rgb(255, 255, 255);
     }
 
     header,section,footer,aside,nav,article,hgroup{
@@ -41,7 +41,7 @@
 
     }
     .cabecera{
-        background: #b9dfff;
+        background: #747677;
         border: 1px solid black;
         padding: 20px;
     }
@@ -105,7 +105,7 @@
         text-align: left;
     }
     article{
-        background-color: #fffeb9;
+        background-color: #ffffff;
         border: 1px solid black;
         padding: 20px;
         margin-bottom: 15px;
@@ -124,14 +124,14 @@
     }
    
    .seccion2 img {
-    width: 451px;
+    width: 450px;
     float: right;
     padding: 10px;
     margin: 10px;
 
    }
    .seccion2 .pantalla{
-    width: 1250px;
+    width: 1200px;
     margin: 0px;
    }
    .seccion2 p{
